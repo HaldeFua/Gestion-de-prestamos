@@ -1,0 +1,30 @@
+Logica:
+Ingeniería
+1.1 Registrar préstamo de equipo.
+        1.1.1. Clase PrestamoService: Gestionará todo lo relacionado con los préstamos.
+                1.1.1.1 Verificará la disponibilidad de los equipos.
+                1.1.1.2 Se encargará de registrar un préstamo.
+        1.1.2. Clase EquipoService: Será responsable de gestionar los equipos.
+                1.1.2.1 Deberá manejar las operaciones de los equipos, como verificar si están disponibles.
+
+        1.1.3. Clase EstudianteService: Será responsable de gestionar a los estudiantes.
+                1.1.3.1 Verificará si un estudiante está registrado.
+        1.1.4. Clase Prestamo (Modelo): Mantendrá la estructura de los datos del préstamo.
+
+1.2 Modificar préstamo de equipo. (Por serial o cedula).
+1.3 Devolución de equipo (se elimina el registro). (Por serial o cedula).
+1.4 Buscar equipo (Por serial o cedula).
+1.5 Volver al menú principal.
+
+Diseño
+2.1 Registrar préstamo de equipo.
+2.2 Modificar préstamo de equipo. (Por serial o cedula).
+2.3 Devolución de equipo (se elimina el registro). (Por serial o cedula).
+2.4 Buscar equipo (Por serial o cedula)
+2.5 Volver al menú principal.
+
+General
+
+3. IMPRIMIR INVENTARIO TOTAL.
+4. SALIR DEL PROGRAMA.
+
