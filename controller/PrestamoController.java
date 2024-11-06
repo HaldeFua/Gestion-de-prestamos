@@ -10,5 +10,6 @@ public class PrestamoController {
     private EquipoService equipoService;
     
     
+    
 
 }
