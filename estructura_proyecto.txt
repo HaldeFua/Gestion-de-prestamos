@@ -1,0 +1,20 @@
+Listado de rutas de carpetas
+El n·mero de serie del volumen es 2408-A2FC
+C:.
+ª   estructura_proyecto.txt
+ª   Main.java
+ª   
++---model
+ª       Equipo.java
+ª       EquipoComputo.java
+ª       EquipoTablet.java
+ª       Estudiante.java
+ª       EstudianteDsg.java
+ª       EstudianteIng.java
+ª       
++---service
+ª       Validaciones.java
+ª       
++---view
+        Vista.java
+        
