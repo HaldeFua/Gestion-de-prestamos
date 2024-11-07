@@ -1,11 +1,17 @@
 package controller;
 
+import service.EstudianteService;
+import service.PersistenciaService;
+import service.PrestamoService;
 import service.Validaciones;
 
 public class EstudianteController {
-
-    
+ 
     Validaciones val;
+    PrestamoService prestamoService;
+    PersistenciaService persistenciaService = new PersistenciaService();
+    EstudianteService estudianteService = new EstudianteService();
+
 
     public EstudianteController(Validaciones val) {
         this.val = val;
@@ -13,7 +19,7 @@ public class EstudianteController {
 
     int controller = 0;
 
-    public void menuEstudiante(String mensaje){
+    public void menuEstudiante(int tipoEstudiante, String mensaje){
         controller = val.capturarInt(mensaje);
 
         switch (controller) {
@@ -26,4 +32,9 @@ public class EstudianteController {
         }
     }
     
+    public void registrarPrestamo(){
+  
+        
+    }
+
 }

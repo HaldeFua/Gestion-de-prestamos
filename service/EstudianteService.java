@@ -1,7 +1,6 @@
 package service;
 import java.util.ArrayList;
 import java.util.List;
-
 import model.Estudiante;
 
 public class EstudianteService {
@@ -43,8 +42,7 @@ public class EstudianteService {
     public boolean estaRegistrado(String cedula) {
         return buscarEstudiante(cedula) != null;
     }
-
-    
+ 
     //verificar ssi existe estudiante por serial
     public boolean estaRegistrado(int serial) {
         return buscarEstudiante(serial) != null;

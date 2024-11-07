@@ -25,5 +25,13 @@ public class Vista {
                 "4. Buscar equipo (por serial o cédula)\n" +
                 "5. Cerrar sesión";
     }
+
+    public String registrarPrestamo(){
+        return "1. Registrar Estudiante" 
+                +"\n2. Registrar Equipo"
+                +"\n3. Salir";
+    }
     
+    
+
 }

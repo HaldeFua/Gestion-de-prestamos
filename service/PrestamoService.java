@@ -1,4 +1,7 @@
 package service;
+import java.util.ArrayList;
+import java.util.List;
+
 import model.Equipo;
 import model.Estudiante;
 import model.Prestamo;
@@ -7,10 +10,12 @@ public class PrestamoService {
 
     private EstudianteService estudianteService;
     private EquipoService equipoService;
+    private List<Prestamo> prestamo;
 
     public PrestamoService(EstudianteService estudianteService, EquipoService equipoService) {
         this.estudianteService = estudianteService;
         this.equipoService = equipoService;
+        this.prestamos = new ArrayList<>();
     }
 
     // Método para registrar un préstamo
@@ -35,7 +40,14 @@ public class PrestamoService {
         // Crear un nuevo préstamo
         Prestamo prestamo = new Prestamo(estudiante, equipo);
 
+        // Agregar el préstamo a la lista
+        prestamos.add(prestamo);
+
         return prestamo; // Devuelve el préstamo creado
     }
  
+    //obtener prestamos
+    public List<Prestamo> obtenerPrestamos() {
+        return prestamos;
+    }
 }

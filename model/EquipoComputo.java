@@ -19,6 +19,7 @@ public class EquipoComputo extends Equipo {
         return procesador;
     }
 
+    @Override
     public String toString() {
         return "SistemaOperativo = '" + sistemaOperativo + '\'' +
                 " , Procesador = '" + procesador + '\'' +
